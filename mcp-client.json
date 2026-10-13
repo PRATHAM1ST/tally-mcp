@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "tally-readonly": {
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": ["C:\\Users\\admin\\Desktop\\tally-mcp\\src\\server.js"],
+      "env": { "TALLY_PORT": "9000" }
+    }
+  }
+}

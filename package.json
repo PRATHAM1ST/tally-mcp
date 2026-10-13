@@ -1,0 +1,22 @@
+{
+  "name": "tally-local-readonly-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local live Tally MCP. DO NOT UPDATE ANYTHING, READ ONLY DATA.",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node src/server.js",
+    "start:http": "node src/http-server.js",
+    "background:check": "node scripts/check-background.js",
+    "doctor": "node src/doctor.js",
+    "test": "node --test",
+    "config": "node scripts/client-config.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.1",
+    "decimal.js": "10.6.0",
+    "fast-xml-parser": "5.11.2",
+    "zod": "4.6.7"
+  }
+}

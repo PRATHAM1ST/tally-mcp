@@ -1,0 +1,10 @@
+{
+  "servers": {
+    "tally-readonly": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${workspaceFolder}/src/server.js"],
+      "env": { "TALLY_PORT": "9000" }
+    }
+  }
+}
